@@ -11,6 +11,8 @@ contract Migrations {
       "This function is restricted to the contract's owner"
     );
     _;
+    //new edited file
+    
   }
 
   function setCompleted(uint completed) public restricted {
